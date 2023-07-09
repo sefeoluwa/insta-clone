@@ -1,6 +1,9 @@
-const Button = () => {
+const Button = ({alertText }) => {
     return (
-       <button onClick={() => alert('Hey girl')}>Click Me!</button> 
+       <>
+        <button onClick={() => alert(alertText)}>Click Me!</button> 
+        <h2>This is just a very disgusting topic</h2>
+       </>
     )
 }
 
