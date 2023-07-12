@@ -334,6 +334,7 @@ nav {
 @media screen and (min-width: 601px) and  (max-width: 900px) {
   .container {
     padding: 0 5%;
+    overflow: hidden; 
   }
 
   nav {
@@ -436,5 +437,11 @@ nav {
 
   .edit-bio-form .cancel-button {
     background-color: #890000;
+  }
+
+  .gallery{
+    grid-template-columns: 1fr;
+    padding-left: 15%;
+     
   }
 }
