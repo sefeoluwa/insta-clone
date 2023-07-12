@@ -2,11 +2,16 @@ import '../loader.css';
 
 const Loader = () => {
   return (
-    <div className="loadingio-spinner-ball-hzjsu3tyykt">
-      <div className="ldio-ldo8enty6y">
+    <div class="loadingio-spinner-ellipsis-ukzbooiljmn">
+      <div class="ldio-a0vkp5kbxag">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
         <div></div>
       </div>
     </div>
+
   );
 };
 
