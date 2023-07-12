@@ -51,7 +51,7 @@
     const editForm =(
         <form className='edit-bio-form' action="" onSubmit= {(e) => updateUserDetails(e)}>
              <input type="text" id='' name= 'nameOfUser' placeholder='Your Name' defaultValue={userDetails?.name}  />
-             <input type="text" id='' name='aboutUser' placeholder='About You' defaultValue={userDetails?.about}  />
+             <input type="text" id='' name='aboutUser' placeholder='About You' defaultValue={userDetails?.about}   maxLength="100"/>
             <br />
             <button type='button' className='cancel-button' onClick= {() => setEditFormIsOpen(false)}>Cancel</button>
             <button  type='submit' >Save</button>
