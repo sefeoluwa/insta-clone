@@ -210,8 +210,15 @@ nav {
     background-color: #0081d6;
   }
 
+  .edit-bio-form{
+    width:80vw;
+    text-align:start;
+    margin-left:-20vw;  
+
+  }
+
   .edit-bio-form input {
-    width: 50%;
+    width: 80%;
     height: 2em;
     border: 0.1em solid #dbdbdb;
     border-radius: 0.2em;
