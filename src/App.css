@@ -82,12 +82,40 @@ nav {
   margin-top: 0.5em;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+  nav {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    text-align: center;
+    width:100vw;
+    height:auto;
+    padding:2vh 1%;
+  }
+
+  .nav-links {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 0.5em;
+  }
+
+  .search {
+    margin: 0.5em auto;
+    width: 80%;
+  }
+
+  .bio{
+   width:90vw;
+   display:flex;
+   justify-content: flex-start;
+   margin-right:15vw;
+  }
+
   .profile-photo {
     width: 5em;
     height: 5em;
     margin-top: 3em;
     margin-right: 2em;
+    margin-left:-15vw;
   }
 }
 
@@ -97,6 +125,7 @@ nav {
   object-fit: cover;
   border-radius: 50%;
   cursor: pointer;
+  
 }
 
 .profile-photo img:hover {
@@ -198,4 +227,10 @@ nav {
 
 .item:hover .delete-button {
   opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+  
+
+  
 }
