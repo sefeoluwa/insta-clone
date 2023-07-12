@@ -82,8 +82,8 @@ nav {
   margin-top: 0.5em;
 }
   .profile-photo {
-    width: 5em;
-    height: 5em;
+    width: 9em;
+    height: 9em;
     margin-top: 3em;
     margin-right: 2em;
   }
@@ -201,6 +201,7 @@ nav {
 @media screen and (max-width: 600px) {
   .container {
     padding: 0 5%;
+    height:100vh;
   }
 
   nav {
@@ -307,12 +308,14 @@ nav {
 
   .add-photo-button {
     transform: scale(2);
-    
+    position:fixed;
+    margin-right: -2em;  
   }
 
   .gallery{
     grid-template-columns: 1fr;
     padding-left: 10%; 
+    
   }
 
   .item {
