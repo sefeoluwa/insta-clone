@@ -330,7 +330,7 @@ nav {
   }
 
   .delete-button {
-    margin-left: -38vw;
+    margin-left: max(-8em);
     margin-top: 6em;
     transform: scale(1.2);
   }
