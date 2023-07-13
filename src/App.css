@@ -157,6 +157,7 @@ nav {
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 1.7em;
   column-gap: 1em;
+  overflow: hidden;
 }
 
 .item {
@@ -314,19 +315,20 @@ nav {
 
   .gallery{
     grid-template-columns: 1fr;
-    padding-left: 10%; 
+    padding-left: 3%; 
+    overflow-x: hidden;
     
   }
 
-  .item {
-    height: 13em;
-    width: 13em;
+  .item{
+    height: 11em;
+    width: 11em;
     
   }
 
   .delete-button {
-    margin-left: -10em;
-    margin-top: 7em;
+    margin-left: -8em;
+    margin-top: 6em;
     transform: scale(1.2);
   }
 }
@@ -442,8 +444,20 @@ nav {
   }
 
   .gallery{
-    grid-template-columns: 1fr;
-    padding-left: 15%;
+    grid-template-columns: 1fr;  
 
+  }
+  
+
+}
+
+@media screen and (max-width: 1000px){
+  .gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
   }
 }
